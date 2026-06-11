@@ -328,7 +328,7 @@ function filtered(){
     &&(F.age===''||r.ab===+F.age)
     &&(!q||String(r.caseNum).includes(q)||String(r.order).includes(q)||r.issue.toLowerCase().includes(q)||r.lastBy.toLowerCase().includes(q)||r.l3&&r.l3.toLowerCase().includes(q)));
 }
-
+ 
 function render(){
   const rows=filtered();
   // KPIs
